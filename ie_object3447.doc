@@ -1,0 +1,357 @@
+
+Microsoft (R) Windows Debugger  Version 6.4.0007.2
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+*** wait with pending attach
+Symbol search path is: SRV**j:\symserver*http://msdl.microsoft.com/download/symbols;symsrv*j:\symserver*http://msdl.microsoft.com/download/symbols
+Executable search path is: 
+ModLoad: 00400000 00419000   J:\Program Files\Internet Explorer\iexplore.exe
+ModLoad: 7c900000 7c9b0000   J:\WINDOWS\system32\ntdll.dll
+ModLoad: 7c800000 7c8f4000   J:\WINDOWS\system32\kernel32.dll
+ModLoad: 77c10000 77c68000   J:\WINDOWS\system32\msvcrt.dll
+ModLoad: 77d40000 77dd0000   J:\WINDOWS\system32\USER32.dll
+ModLoad: 77f10000 77f56000   J:\WINDOWS\system32\GDI32.dll
+ModLoad: 77f60000 77fd6000   J:\WINDOWS\system32\SHLWAPI.dll
+ModLoad: 77dd0000 77e6b000   J:\WINDOWS\system32\ADVAPI32.dll
+ModLoad: 77e70000 77f01000   J:\WINDOWS\system32\RPCRT4.dll
+ModLoad: 77760000 778cc000   J:\WINDOWS\system32\SHDOCVW.dll
+ModLoad: 77a80000 77b14000   J:\WINDOWS\system32\CRYPT32.dll
+ModLoad: 77b20000 77b32000   J:\WINDOWS\system32\MSASN1.dll
+ModLoad: 754d0000 75550000   J:\WINDOWS\system32\CRYPTUI.dll
+ModLoad: 76c30000 76c5e000   J:\WINDOWS\system32\WINTRUST.dll
+ModLoad: 76c90000 76cb8000   J:\WINDOWS\system32\IMAGEHLP.dll
+ModLoad: 77120000 771ac000   J:\WINDOWS\system32\OLEAUT32.dll
+ModLoad: 774e0000 7761d000   J:\WINDOWS\system32\ole32.dll
+ModLoad: 5b860000 5b8b4000   J:\WINDOWS\system32\NETAPI32.dll
+ModLoad: 771b0000 77256000   J:\WINDOWS\system32\WININET.dll
+ModLoad: 76f60000 76f8c000   J:\WINDOWS\system32\WLDAP32.dll
+ModLoad: 77c00000 77c08000   J:\WINDOWS\system32\VERSION.dll
+ModLoad: 773d0000 774d2000   J:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll
+ModLoad: 7c9c0000 7d1d4000   J:\WINDOWS\system32\SHELL32.dll
+ModLoad: 5d090000 5d127000   J:\WINDOWS\system32\comctl32.dll
+ModLoad: 5ad70000 5ada8000   J:\WINDOWS\system32\uxtheme.dll
+ModLoad: 75f80000 7607d000   J:\WINDOWS\system32\BROWSEUI.dll
+ModLoad: 20000000 20012000   J:\WINDOWS\system32\browselc.dll
+ModLoad: 77b40000 77b62000   J:\WINDOWS\system32\appHelp.dll
+ModLoad: 76fd0000 7704f000   J:\WINDOWS\system32\CLBCATQ.DLL
+ModLoad: 77050000 77115000   J:\WINDOWS\system32\COMRes.dll
+ModLoad: 77920000 77a13000   J:\WINDOWS\system32\SETUPAPI.dll
+ModLoad: 77fe0000 77ff1000   J:\WINDOWS\system32\Secur32.dll
+ModLoad: 77260000 772fe000   J:\WINDOWS\system32\urlmon.dll
+ModLoad: 77a20000 77a74000   J:\WINDOWS\System32\cscui.dll
+ModLoad: 76600000 7661d000   J:\WINDOWS\System32\CSCDLL.dll
+ModLoad: 01520000 015a8000   J:\WINDOWS\system32\shdoclc.dll
+ModLoad: 015b0000 01875000   J:\WINDOWS\system32\xpsp2res.dll
+ModLoad: 75cf0000 75d81000   J:\WINDOWS\system32\mlang.dll
+ModLoad: 7d4a0000 7d785000   J:\WINDOWS\System32\mshtml.dll
+ModLoad: 746c0000 746e7000   J:\WINDOWS\System32\msls31.dll
+ModLoad: 71ad0000 71ad9000   J:\WINDOWS\system32\wsock32.dll
+ModLoad: 71ab0000 71ac7000   J:\WINDOWS\system32\WS2_32.dll
+ModLoad: 71aa0000 71aa8000   J:\WINDOWS\system32\WS2HELP.dll
+ModLoad: 71a50000 71a8f000   J:\WINDOWS\system32\mswsock.dll
+ModLoad: 662b0000 66308000   J:\WINDOWS\system32\hnetcfg.dll
+ModLoad: 71a90000 71a98000   J:\WINDOWS\System32\wshtcpip.dll
+ModLoad: 023e0000 026a6000   J:\WINDOWS\system32\msi.dll
+ModLoad: 75e90000 75f40000   J:\WINDOWS\system32\SXS.DLL
+ModLoad: 76ee0000 76f1c000   J:\WINDOWS\system32\RASAPI32.DLL
+ModLoad: 76e90000 76ea2000   J:\WINDOWS\system32\rasman.dll
+ModLoad: 76eb0000 76edf000   J:\WINDOWS\system32\TAPI32.dll
+ModLoad: 76e80000 76e8e000   J:\WINDOWS\system32\rtutils.dll
+ModLoad: 76b40000 76b6d000   J:\WINDOWS\system32\WINMM.dll
+ModLoad: 746f0000 7471a000   J:\WINDOWS\System32\msimtf.dll
+ModLoad: 74720000 7476b000   J:\WINDOWS\System32\MSCTF.dll
+ModLoad: 76390000 763ad000   J:\WINDOWS\system32\IMM32.DLL
+ModLoad: 77c70000 77c93000   J:\WINDOWS\system32\msv1_0.dll
+ModLoad: 76d60000 76d79000   J:\WINDOWS\system32\iphlpapi.dll
+ModLoad: 769c0000 76a73000   J:\WINDOWS\system32\USERENV.dll
+ModLoad: 0ffd0000 0fff8000   J:\WINDOWS\system32\rsaenh.dll
+ModLoad: 75c50000 75cbe000   J:\WINDOWS\System32\jscript.dll
+ModLoad: 76f20000 76f47000   J:\WINDOWS\system32\DNSAPI.dll
+ModLoad: 76fb0000 76fb8000   J:\WINDOWS\System32\winrnr.dll
+ModLoad: 722b0000 722b5000   J:\WINDOWS\system32\sensapi.dll
+ModLoad: 76fc0000 76fc6000   J:\WINDOWS\system32\rasadhlp.dll
+ModLoad: 71b20000 71b32000   J:\WINDOWS\system32\MPR.dll
+ModLoad: 75f60000 75f67000   J:\WINDOWS\System32\drprov.dll
+ModLoad: 71c10000 71c1e000   J:\WINDOWS\System32\ntlanman.dll
+ModLoad: 71cd0000 71ce7000   J:\WINDOWS\System32\NETUI0.dll
+ModLoad: 71c90000 71cd0000   J:\WINDOWS\System32\NETUI1.dll
+ModLoad: 71c80000 71c87000   J:\WINDOWS\System32\NETRAP.dll
+ModLoad: 71bf0000 71c03000   J:\WINDOWS\System32\SAMLIB.dll
+ModLoad: 75f70000 75f79000   J:\WINDOWS\System32\davclnt.dll
+ModLoad: 73d70000 73d83000   J:\WINDOWS\System32\shgina.dll
+ModLoad: 75970000 75a67000   J:\WINDOWS\system32\MSGINA.dll
+ModLoad: 76360000 76370000   J:\WINDOWS\system32\WINSTA.dll
+ModLoad: 74320000 7435d000   J:\WINDOWS\system32\ODBC32.dll
+ModLoad: 763b0000 763f9000   J:\WINDOWS\system32\comdlg32.dll
+ModLoad: 030b0000 030c7000   J:\WINDOWS\system32\odbcint.dll
+ModLoad: 72d20000 72d29000   J:\WINDOWS\system32\wdmaud.drv
+ModLoad: 72d10000 72d18000   J:\WINDOWS\system32\msacm32.drv
+ModLoad: 77be0000 77bf5000   J:\WINDOWS\system32\MSACM32.dll
+ModLoad: 77bd0000 77bd7000   J:\WINDOWS\system32\midimap.dll
+ModLoad: 54600000 54625000   J:\PROGRA~1\MICROS~3\Common\MSDev98\Bin\IDE\SPLASH.DLL
+ModLoad: 73dd0000 73ece000   J:\WINDOWS\system32\MFC42.DLL
+(32c.e40): Break instruction exception - code 80000003 (first chance)
+eax=7ffdf000 ebx=00000001 ecx=00000002 edx=00000003 esi=00000004 edi=00000005
+eip=7c901230 esp=02f0ffcc ebp=02f0fff4 iopl=0         nv up ei pl zr na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=0038  gs=0000             efl=00000246
+ntdll!DbgBreakPoint:
+7c901230 cc               int     3
+0:015> g
+ModLoad: 73d70000 73d83000   J:\WINDOWS\System32\shgina.dll
+ModLoad: 73d70000 73d83000   J:\WINDOWS\System32\shgina.dll
+ModLoad: 6d6e0000 6d797000   J:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll
+ModLoad: 76780000 76789000   J:\WINDOWS\system32\SHFOLDER.dll
+ModLoad: 71240000 7126a000   J:\WINDOWS\system32\adsnds.dll
+ModLoad: 5f130000 5f142000   J:\WINDOWS\system32\NWAPI32.dll
+ModLoad: 5f0e0000 5f106000   J:\WINDOWS\system32\NWPROVAU.dll
+ModLoad: 77cc0000 77cf2000   J:\WINDOWS\system32\ACTIVEDS.dll
+ModLoad: 76e10000 76e35000   J:\WINDOWS\system32\adsldpc.dll
+ModLoad: 76b20000 76b31000   J:\WINDOWS\system32\ATL.DLL
+ModLoad: 73000000 73026000   J:\WINDOWS\system32\WINSPOOL.DRV
+ModLoad: 592c0000 592d9000   J:\WINDOWS\system32\wmpshell.dll
+ModLoad: 6fb10000 6fbaf000   J:\WINDOWS\system32\catsrvut.dll
+ModLoad: 61990000 61999000   J:\WINDOWS\system32\MfcSubs.dll
+ModLoad: 75150000 75164000   J:\WINDOWS\system32\Cabinet.dll
+ModLoad: 776c0000 776d1000   J:\WINDOWS\system32\AUTHZ.dll
+ModLoad: 6fbd0000 6fc0e000   J:\WINDOWS\system32\catsrv.dll
+ModLoad: 76620000 7675a000   J:\WINDOWS\system32\comsvcs.dll
+ModLoad: 750f0000 75103000   J:\WINDOWS\system32\MTXCLU.DLL
+ModLoad: 75130000 75144000   J:\WINDOWS\system32\colbact.DLL
+ModLoad: 76d10000 76d21000   J:\WINDOWS\system32\CLUSAPI.DLL
+ModLoad: 750b0000 750c2000   J:\WINDOWS\system32\RESUTILS.DLL
+ModLoad: 73f10000 73f6c000   J:\WINDOWS\system32\dsound.dll
+ModLoad: 73ba0000 73bb3000   J:\WINDOWS\System32\sti.dll
+ModLoad: 74ae0000 74ae7000   J:\WINDOWS\System32\CFGMGR32.dll
+ModLoad: 246d0000 246e4000   J:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\DLGOBJS.DLL
+ModLoad: 55b00000 55b9f000   J:\PROGRA~1\MICROS~3\Common\MSDev98\Bin\IDE\ATLOBJ.DLL
+ModLoad: 76080000 760e5000   J:\WINDOWS\system32\MSVCP60.dll
+ModLoad: 6faa0000 6fac7000   J:\WINDOWS\System32\cdfview.dll
+ModLoad: 6be10000 6be6a000   J:\WINDOWS\System32\dxtmsft.dll
+ModLoad: 6bdd0000 6be05000   J:\WINDOWS\System32\dxtrans.dll
+ModLoad: 5a190000 5a2f2000   J:\WINDOWS\system32\msvidctl.dll
+ModLoad: 02230000 02259000   J:\Program Files\WinRAR\rarext.dll
+ModLoad: 5cd80000 5cd88000   J:\WINDOWS\System32\encapi.dll
+ModLoad: 755f0000 7568a000   J:\WINDOWS\System32\netcfgx.dll
+ModLoad: 5b3c0000 5b3d9000   J:\WINDOWS\System32\tscfgwmi.dll
+ModLoad: 692c0000 692f0000   J:\WINDOWS\System32\Wbem\framedyn.dll
+ModLoad: 76bc0000 76bcf000   J:\WINDOWS\System32\REGAPI.dll
+ModLoad: 4f890000 4f90d000   J:\Program Files\Movie Maker\wmm2fxa.dll
+ModLoad: 4ec50000 4edf3000   J:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82\gdiplus.dll
+ModLoad: 73760000 737a9000   J:\WINDOWS\system32\DDRAW.dll
+ModLoad: 73bc0000 73bc6000   J:\WINDOWS\system32\DCIMAN32.dll
+ModLoad: 76380000 76385000   J:\WINDOWS\system32\MSIMG32.dll
+ModLoad: 60e90000 60ea1000   J:\WINDOWS\system32\DATACLEN.DLL
+ModLoad: 73300000 73367000   J:\WINDOWS\System32\vbscript.dll
+ModLoad: 5edf0000 5ee0d000   J:\WINDOWS\System32\oleprn.dll
+ModLoad: 76200000 76271000   J:\WINDOWS\System32\mshtmled.dll
+ModLoad: 6d3c0000 6d3cd000   J:\WINDOWS\System32\dfrgsnap.dll
+ModLoad: 10000000 1000b000   J:\Program Files\UltraEdit\ue32ctmn.dll
+ModLoad: 11000000 11090000   J:\Program Files\Microsoft Visual Studio\VIntDev98\bin\VIDTC3.OCX
+ModLoad: 73420000 73574000   J:\WINDOWS\system32\MSVBVM60.DLL
+ModLoad: 59880000 598a9000   J:\Program Files\Microsoft Visual Studio\VIntDev98\bin\DTCSERV.DLL
+ModLoad: 58090000 580a4000   J:\WINDOWS\system32\mdt2fw95.dll
+ModLoad: 4de10000 4de93000   J:\Program Files\Common Files\system\ado\msado15.dll
+ModLoad: 765b0000 765d5000   J:\WINDOWS\system32\MSDART.DLL
+ModLoad: 74060000 740b1000   J:\Program Files\Common Files\system\msadc\msadce.dll
+ModLoad: 73160000 731d7000   J:\Program Files\Common Files\system\ole db\oledb32.dll
+ModLoad: 75350000 75361000   J:\Program Files\Common Files\system\ole db\OLEDB32R.DLL
+ModLoad: 01f80000 01f85000   J:\Program Files\Common Files\system\msadc\msadcer.dll
+ModLoad: 74c80000 74cac000   J:\WINDOWS\System32\oleacc.dll
+ModLoad: 60e70000 60e83000   J:\WINDOWS\System32\msctfp.dll
+ModLoad: 68770000 68798000   J:\WINDOWS\System32\hotplug.dll
+ModLoad: 590b0000 590ce000   J:\WINDOWS\system32\wmpasf.dll
+ModLoad: 6bf50000 6bfcd000   J:\WINDOWS\system32\dxmasf.dll
+ModLoad: 04920000 0496f000   J:\WINDOWS\system32\DRMClien.DLL
+ModLoad: 202b0000 20345000   J:\WINDOWS\System32\COMCTL32.OCX
+ModLoad: 754a0000 754b8000   J:\Program Files\Messenger\msgsc.dll
+ModLoad: 71d40000 71d5c000   J:\WINDOWS\System32\actxprxy.dll
+ModLoad: 506a0000 50713000   J:\WINDOWS\system32\wuapi.dll
+ModLoad: 04970000 04c03000   J:\WINDOWS\System32\MMToolsX2.OCX
+ModLoad: 5edd0000 5ede7000   J:\WINDOWS\system32\olepro32.dll
+ModLoad: 66660000 66693000   J:\WINDOWS\System32\gptext.dll
+ModLoad: 5a320000 5a427000   J:\WINDOWS\System32\danim.dll
+ModLoad: 74520000 74648000   J:\WINDOWS\System32\mmcndmgr.dll
+ModLoad: 72810000 72824000   J:\WINDOWS\System32\mmcbase.DLL
+ModLoad: 72830000 7292e000   J:\WINDOWS\System32\MFC42u.DLL
+ModLoad: 6d430000 6d43a000   J:\WINDOWS\System32\ddrawex.dll
+ModLoad: 30b00000 31488000   J:\Program Files\Common Files\Microsoft Shared\Office10\MSO.DLL
+ModLoad: 02b00000 02b2e000   J:\Program Files\VMware\VMware Workstation\vmdbCOM.dll
+ModLoad: 11100000 1121f000   J:\Program Files\VMware\VMware Workstation\vmapplib.DLL
+ModLoad: 04d80000 04e4d000   J:\Program Files\VMware\VMware Workstation\LIBEAY32.dll
+ModLoad: 5c080000 5c135000   j:\windows\srchasst\srchui.dll
+ModLoad: 5c150000 5c162000   j:\windows\srchasst\srchctls.dll
+ModLoad: 5ef80000 5ef9d000   J:\Program Files\Outlook Express\oeimport.dll
+ModLoad: 76880000 768a2000   J:\WINDOWS\system32\MSOERT2.dll
+ModLoad: 04e80000 050df000   J:\Program Files\Outlook Express\msoeres.dll
+ModLoad: 5ba60000 5bad1000   J:\WINDOWS\System32\themeui.dll
+ModLoad: 74810000 7497d000   J:\WINDOWS\System32\quartz.dll
+ModLoad: 12300000 123cd000   J:\Program Files\Common Files\System\OLE DB\MSMDGDRV.DLL
+ModLoad: 41100000 4110c000   J:\WINDOWS\system32\SQLWOA.dll
+ModLoad: 412f0000 412f6000   J:\WINDOWS\system32\SQLWID.dll
+ModLoad: 1b5d0000 1b665000   J:\WINDOWS\system32\mswstr10.dll
+ModLoad: 75940000 75948000   J:\WINDOWS\system32\NDDEAPI.DLL
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 71f80000 71f84000   J:\WINDOWS\system32\security.dll
+ModLoad: 73940000 73a10000   J:\WINDOWS\system32\D3DIM700.DLL
+ModLoad: 05850000 05869000   J:\WINDOWS\System\VI30WRP.DLL
+ModLoad: 67b80000 67be5000   J:\WINDOWS\System\fp30wec.dll
+ModLoad: 67f80000 67ff1000   J:\WINDOWS\System\fp30utl.dll
+ModLoad: 05870000 05881000   J:\WINDOWS\system32\MSVCIRT.dll
+ModLoad: 73380000 733d7000   J:\WINDOWS\System32\zipfldr.dll
+ModLoad: 5dae0000 5db08000   J:\WINDOWS\System32\rdchost.dll
+ModLoad: 70320000 70328000   J:\WINDOWS\System32\bidispl.dll
+ModLoad: 51070000 510d6000   J:\PROGRA~1\COMMON~1\SYMANT~1\SSC\LDVPCtls.ocx
+ModLoad: 5faa0000 5fad4000   J:\WINDOWS\System32\mswebdvd.dll
+ModLoad: 5c200000 5c2be000   J:\Program Files\Common Files\SpeechEngines\Microsoft\TTS\1033\spttseng.dll
+ModLoad: 70880000 70896000   J:\WINDOWS\System32\autodisc.dll
+ModLoad: 7c000000 7c0ea000   J:\WINDOWS\system32\msjava.dll
+ModLoad: 7c520000 7c568000   J:\WINDOWS\system32\VMHELPER.DLL
+ModLoad: 4aa00000 4aa15000   J:\WINDOWS\system32\msdbg.dll
+ModLoad: 7c400000 7c42c000   J:\WINDOWS\system32\JIT.DLL
+ModLoad: 7c300000 7c366000   J:\WINDOWS\system32\javart.dll
+ModLoad: 5ddd0000 5de13000   J:\WINDOWS\System32\compatui.dll
+ModLoad: 76bb0000 76bb5000   J:\WINDOWS\System32\sfc.dll
+ModLoad: 76c60000 76c8a000   J:\WINDOWS\System32\sfc_os.dll
+ModLoad: 6c6d0000 6c6e2000   J:\WINDOWS\system32\dpnhupnp.dll
+ModLoad: 76de0000 76e03000   J:\WINDOWS\System32\upnp.dll
+ModLoad: 4d4f0000 4d548000   J:\WINDOWS\System32\WINHTTP.dll
+ModLoad: 74f00000 74f0c000   J:\WINDOWS\System32\SSDPAPI.dll
+ModLoad: 6c610000 6c647000   J:\WINDOWS\system32\dpvoice.dll
+ModLoad: 6c650000 6c658000   J:\WINDOWS\system32\dpvacm.dll
+ModLoad: 582d0000 582d4000   J:\WINDOWS\system32\tssoft32.acm
+ModLoad: 73b70000 73b77000   J:\WINDOWS\system32\tsd32.dll
+ModLoad: 58300000 58308000   J:\WINDOWS\system32\msgsm32.acm
+ModLoad: 72cf0000 72cf7000   J:\WINDOWS\system32\msadp32.acm
+ModLoad: 6c5f0000 6c60f000   J:\WINDOWS\system32\dpvvox.dll
+ModLoad: 5e030000 5e053000   J:\WINDOWS\system32\ksproxy.ax
+ModLoad: 73ee0000 73ee4000   J:\WINDOWS\system32\ksuser.dll
+ModLoad: 514d0000 514f9000   J:\PROGRA~1\COMMON~1\SYMANT~1\SSC\LDVPTask.ocx
+ModLoad: 12400000 12443000   J:\Program Files\Common Files\System\OLE DB\MSMDCUBE.DLL
+ModLoad: 12500000 1250e000   J:\Program Files\Common Files\System\OLE DB\MSOLAPR.DLL
+ModLoad: 6d510000 6d574000   J:\WINDOWS\System32\lmrt.dll
+ModLoad: 5ac20000 5aca5000   J:\WINDOWS\System32\mstime.dll
+ModLoad: 70ed0000 70f1d000   J:\WINDOWS\System32\appmgr.dll
+ModLoad: 71550000 7156f000   J:\WINDOWS\System32\ACLUI.dll
+ModLoad: 09f00000 09f8f000   J:\WINDOWS\System32\GPEDIT.DLL
+ModLoad: 6c230000 6c24e000   J:\WINDOWS\System32\dsuiext.dll
+ModLoad: 767a0000 767b3000   J:\WINDOWS\System32\NTDSAPI.dll
+ModLoad: 6c250000 6c25f000   J:\WINDOWS\System32\DSSEC.dll
+ModLoad: 75230000 7525c000   J:\WINDOWS\System32\APPMGMTS.dll
+ModLoad: 5c570000 5c5a1000   J:\WINDOWS\System32\dmime.dll
+ModLoad: 09fa0000 0a007000   J:\PROGRA~1\Ahead\NEROWA~1\LEDMeter.ocx
+ModLoad: 5fed0000 5ff0c000   J:\Program Files\Common Files\MSSoap\Binaries\mssoap1.dll
+ModLoad: 5fec0000 5fec9000   J:\Program Files\Common Files\MSSoap\Binaries\Resources\1033\MSSOAPR.DLL
+ModLoad: 77710000 77751000   J:\WINDOWS\System32\es.dll
+ModLoad: 76f50000 76f58000   J:\WINDOWS\system32\wtsapi32.dll
+ModLoad: 6f620000 6f62c000   J:\WINDOWS\System32\cfgbkend.dll
+ModLoad: 5adb0000 5adba000   J:\WINDOWS\System32\UTILDLL.dll
+ModLoad: 21d70000 21d92000   J:\WINDOWS\system32\MSMAPI32.OCX
+ModLoad: 1d300000 1d3d1000   J:\WINDOWS\System32\msdxm.ocx
+ModLoad: 60ca0000 60d2c000   J:\WINDOWS\System32\qedit.dll
+ModLoad: 75a70000 75a91000   J:\WINDOWS\System32\MSVFW32.dll
+ModLoad: 60e50000 60e60000   J:\WINDOWS\msagent\agentdpv.dll
+ModLoad: 0a150000 0a16e000   J:\Program Files\Compuware\DriverStudio\SiIpxp.dll
+ModLoad: 76150000 761fa000   J:\WINDOWS\System32\inetcomm.dll
+ModLoad: 0a180000 0a18e000   J:\WINDOWS\System32\inetres.dll
+ModLoad: 11500000 11779000   J:\Program Files\VMware\VMware Workstation\vmappsdk.dll
+ModLoad: 5b6f0000 5b74a000   J:\WINDOWS\System32\termmgr.dll
+ModLoad: 4b5b0000 4ba59000   J:\WINDOWS\system32\wmp.dll
+ModLoad: 0a1a0000 0a46e000   J:\WINDOWS\system32\wmploc.dll
+ModLoad: 4eb90000 4ec21000   J:\Program Files\Movie Maker\wmm2filt.dll
+ModLoad: 28750000 2875e000   J:\PROGRA~1\MICROS~2\Office\BLNMGRPS.DLL
+(32c.d30): Access violation - code c0000005 (first chance)
+First chance exceptions are reported before any exception handling.
+This exception may be expected and handled.
+eax=00000001 ebx=018b3338 ecx=0013e674 edx=7c90eb94 esi=0007044a edi=00000000
+eip=28752ed8 esp=0013e680 ebp=0013e6a0 iopl=0         nv up ei pl nz na pe nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00010202
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for J:\PROGRA~1\MICROS~2\Office\BLNMGRPS.DLL - 
+BLNMGRPS+0x2ed8:
+28752ed8 8b4e04           mov     ecx,[esi+0x4]     ds:0023:0007044e=????????
+0:000> kv L 90
+ChildEBP RetAddr  Args to Child              
+WARNING: Stack unwind information not available. Following frames may be wrong.
+0013e6a0 7d712728 018b32e4 018b32a0 00000000 BLNMGRPS+0x2ed8
+0013e6b0 7d71559d 00000000 018b32a0 018a97a0 mshtml!COleSite::Passivate+0x69 (FPO: [0,0,0])
+0013e6c8 7d5095c7 00000000 018b32a0 0013e6ec mshtml!CObjectElement::Passivate+0xa8 (FPO: [Non-Fpo])
+0013e6d8 7d5087b4 018b32a0 00000000 018b33c0 mshtml!CBase::PrivateRelease+0x2d (FPO: [Non-Fpo])
+0013e6ec 7d5089c6 018b32a0 00000000 7d57d94b mshtml!CElement::PrivateRelease+0x27 (FPO: [Non-Fpo])
+0013e6f8 7d57d94b 018b32a0 018a9e90 018a97a0 mshtml!CMimeTypes::Release+0xe (FPO: [Non-Fpo])
+0013e760 7d535f0b 00000001 00000000 018a97a0 mshtml!CMarkup::DestroySplayTree+0x460 (FPO: [EBP 0x0013e7e0] [1,20,0])
+0013e7e0 7d53643a 00000000 018b7500 00197e38 mshtml!CMarkup::UnloadContents+0x2cc (FPO: [Non-Fpo])
+0013e808 7d539763 00000001 00000001 034e2e20 mshtml!CMarkup::TearDownMarkup+0x66 (FPO: [Non-Fpo])
+0013e860 7d608fb1 00000000 00000000 00000001 mshtml!COmWindowProxy::SwitchMarkup+0x487 (FPO: [Non-Fpo])
+0013e8e8 7d609526 00005004 0013e928 7d50c582 mshtml!COmWindowProxy::ExecRefresh+0x41b (FPO: [Non-Fpo])
+0013e8f4 7d50c582 01880a20 00005004 00000000 mshtml!COmWindowProxy::ExecRefreshCallback+0x10 (FPO: [Non-Fpo])
+0013e928 7d508508 0013eac4 7d508423 00000000 mshtml!GlobalWndOnMethodCall+0x66 (FPO: [Non-Fpo])
+0013ea5c 77d48734 00030362 00008002 00000000 mshtml!GlobalWndProc+0x1e2 (FPO: [Non-Fpo])
+0013ea88 77d48816 7d508423 00030362 00008002 USER32!InternalCallWinProc+0x28
+0013eaf0 77d489cd 00000000 7d508423 00030362 USER32!UserCallWinProcCheckWow+0x150 (FPO: [Non-Fpo])
+0013eb50 77d48a10 0013eb90 00000000 0013eb78 USER32!DispatchMessageWorker+0x306 (FPO: [Non-Fpo])
+0013eb60 75fa6d95 0013eb90 00000000 001631c8 USER32!DispatchMessageW+0xf (FPO: [Non-Fpo])
+0013eb78 75fae692 0013eb90 0013ee98 00000000 BROWSEUI!TimedDispatchMessage+0x33 (FPO: [Non-Fpo])
+0013edd8 75fae805 00162f60 0013ee98 00162f60 BROWSEUI!BrowserThreadProc+0x32e (FPO: [Non-Fpo])
+0013ee6c 75faeacd 00162f60 00162f60 00000000 BROWSEUI!BrowserProtectedThreadProc+0x50 (FPO: [Non-Fpo])
+0013fef0 777e717e 00162f60 00000000 00000000 BROWSEUI!SHOpenFolderWindow+0x22c (FPO: [Non-Fpo])
+0013ff10 00402372 001523ba 00000001 00090000 SHDOCVW!IEWinMain+0x129 (FPO: [Non-Fpo])
+0013ff60 00402444 00400000 00000000 001523ba iexplore!WinMainT+0x2de (FPO: [Non-Fpo])
+0013ffc0 7c816d4f 00090000 020d0408 7ffdf000 iexplore!_ModuleEntry+0x99 (FPO: [Non-Fpo])
+0013fff0 00000000 00402451 00000000 78746341 kernel32!BaseProcessStart+0x23 (FPO: [Non-Fpo])
+0:000> r
+eax=00000001 ebx=018b3338 ecx=0013e674 edx=7c90eb94 esi=0007044a edi=00000000
+eip=28752ed8 esp=0013e680 ebp=0013e6a0 iopl=0         nv up ei pl nz na pe nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00010202
+BLNMGRPS+0x2ed8:
+28752ed8 8b4e04           mov     ecx,[esi+0x4]     ds:0023:0007044e=????????
+0:000> d esp
+0013e680  d8 1e 47 0a f9 7f 75 28-d8 1e 47 0a 23 80 75 28  ..G...u(..G.#.u(
+0013e690  a0 32 8b 01 a0 32 8b 01-f6 aa 50 7d d8 1e 47 0a  .2...2....P}..G.
+0013e6a0  c8 e6 13 00 28 27 71 7d-e4 32 8b 01 a0 32 8b 01  ....('q}.2...2..
+0013e6b0  00 00 00 00 9d 55 71 7d-00 00 00 00 a0 32 8b 01  .....Uq}.....2..
+0013e6c0  a0 97 8a 01 a0 32 8b 01-d8 e6 13 00 c7 95 50 7d  .....2........P}
+0013e6d0  00 00 00 00 a0 32 8b 01-ec e6 13 00 b4 87 50 7d  .....2........P}
+0013e6e0  a0 32 8b 01 00 00 00 00-c0 33 8b 01 f8 e6 13 00  .2.......3......
+0013e6f0  c6 89 50 7d a0 32 8b 01-00 00 00 00 4b d9 57 7d  ..P}.2......K.W}
+0:000> db esp
+0013e680  d8 1e 47 0a f9 7f 75 28-d8 1e 47 0a 23 80 75 28  ..G...u(..G.#.u(
+0013e690  a0 32 8b 01 a0 32 8b 01-f6 aa 50 7d d8 1e 47 0a  .2...2....P}..G.
+0013e6a0  c8 e6 13 00 28 27 71 7d-e4 32 8b 01 a0 32 8b 01  ....('q}.2...2..
+0013e6b0  00 00 00 00 9d 55 71 7d-00 00 00 00 a0 32 8b 01  .....Uq}.....2..
+0013e6c0  a0 97 8a 01 a0 32 8b 01-d8 e6 13 00 c7 95 50 7d  .....2........P}
+0013e6d0  00 00 00 00 a0 32 8b 01-ec e6 13 00 b4 87 50 7d  .....2........P}
+0013e6e0  a0 32 8b 01 00 00 00 00-c0 33 8b 01 f8 e6 13 00  .2.......3......
+0013e6f0  c6 89 50 7d a0 32 8b 01-00 00 00 00 4b d9 57 7d  ..P}.2......K.W}
+0:000> u eip
+BLNMGRPS+0x2ed8:
+28752ed8 8b4e04           mov     ecx,[esi+0x4]
+28752edb 8d4604           lea     eax,[esi+0x4]
+28752ede 50               push    eax
+28752edf ff5108           call    dword ptr [ecx+0x8]
+28752ee2 5e               pop     esi
+28752ee3 c3               ret
+28752ee4 55               push    ebp
+28752ee5 8bec             mov     ebp,esp
+0:000> db eip
+28752ed8  8b 4e 04 8d 46 04 50 ff-51 08 5e c3 55 8b ec 83  .N..F.P.Q.^.U...
+28752ee8  ec 1c 8b 45 0c 68 88 13-00 00 89 45 e4 8b 45 10  ...E.h.....E..E.
+28752ef8  89 45 e8 8b 45 14 89 45-ec 8b 45 18 89 45 f0 8d  .E..E..E..E..E..
+28752f08  45 e4 89 45 fc 8d 45 f4-50 8b 45 08 c7 45 f4 02  E..E..E.P.E..E..
+28752f18  00 00 00 c7 45 f8 10 00-00 00 ff 70 0c ff 70 14  ....E......p..p.
+28752f28  e8 10 05 00 00 83 c4 10-c9 c2 14 00 55 8b ec 83  ............U...
+28752f38  ec 0c 56 8b 75 08 8d 45-f4 83 65 f8 00 83 65 fc  ..V.u..E..e...e.
+28752f48  00 68 88 13 00 00 50 c7-45 f4 05 00 00 00 ff 76  .h....P.E......v
+
+
+
+
+

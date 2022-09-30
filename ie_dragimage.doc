@@ -1,0 +1,212 @@
+ChildEBP RetAddr  Args to Child              
+0013d870 7c90e96c 7c91e7d3 ffffffff 76360000 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+0013d874 7c91e7d3 ffffffff 76360000 0013d9c0 ntdll!NtUnmapViewOfSection+0xc (FPO: [2,0,0])
+0013d964 7c80aa7f 76360000 001e4f78 76363c47 ntdll!LdrUnloadDll+0x31a (FPO: [Non-Fpo])
+0013d978 77553830 76360000 0013e114 0013dd20 kernel32!FreeLibrary+0x3f (FPO: [Non-Fpo])
+0013d9cc 77553779 774e0001 001b1870 774fd282 ole32!CountTSSessions+0xad (FPO: [Non-Fpo])
+0013dbcc 77e8c4f2 0013dbe8 00000028 0013e114 ole32!CLIPFORMAT_UserSize+0x2e (FPO: [Non-Fpo])
+0013dc04 77e8c48a 0013dd20 0013e114 774e3bc0 RPCRT4!NdrpUserMarshalBufferSize+0x56 (FPO: [Non-Fpo])
+0013dc30 77e8682c 0013dd20 0013e114 774e3bc0 RPCRT4!NdrUserMarshalBufferSize+0xa9 (FPO: [Non-Fpo])
+0013dc80 77e7acd4 0013dd20 0013e114 014e3be2 RPCRT4!NdrComplexStructBufferSize+0x320 (FPO: [Non-Fpo])
+0013dca0 77e7b12a 0013dd20 0013e114 774e3ec4 RPCRT4!NdrpPointerBufferSize+0xae (FPO: [Non-Fpo])
+0013dcb4 77e718bc 0013dd20 0013e114 774e3ec4 RPCRT4!NdrPointerBufferSize+0x29 (FPO: [Non-Fpo])
+0013dcd8 77ef35cc 00000000 00000001 0013e150 RPCRT4!NdrpSizing+0x88 (FPO: [Non-Fpo])
+0013e0b4 77552cda 774e6218 774e7776 0013e0d0 RPCRT4!NdrClientCall2+0x139 (FPO: [Non-Fpo])
+0013e0c8 775d05d5 001f754c 0013e114 0013e144 ole32!IDataObject_RemoteGetData_Proxy+0x1b (FPO: [Non-Fpo])
+0013e0e0 7caad4fa 0020ae20 0013e114 0013e144 ole32!CDragDataObject::GetData+0x23 (FPO: [Non-Fpo])
+0013e158 7caad7ab 0020ae20 00000000 00000000 SHELL32!CDragImages::_LoadFromDataObject+0x59 (FPO: [Non-Fpo])
+0013e188 7caad1eb 001c7064 0027030c 0020ae20 SHELL32!CDragImages::DragEnter+0x1b (FPO: [Non-Fpo])
+0013e1b0 77831fd2 0027030c 00000003 000001b8 SHELL32!DAD_DragEnterEx2+0x44 (FPO: [Non-Fpo])
+0013e1c8 77815fb2 0027030c 00000003 000001b8 SHDOCVW!DL_DAD_DragEnterEx2+0x3f (FPO: [Non-Fpo])
+0013e1f0 778015c0 0027030c 000000a3 000001b8 SHDOCVW!_DragEnter+0x4c (FPO: [Non-Fpo])
+0013e220 777ae12c 0018baf4 0020ae20 00000001 SHDOCVW!CDocObjectView::DragEnter+0x77 (FPO: [Non-Fpo])
+0013e240 75fc82dd 001663d4 0020ae20 00000001 SHDOCVW!CBaseBrowser2::DragEnter+0x27 (FPO: [Non-Fpo])
+0013e260 775f8f67 001631f4 0020ae20 00000001 BROWSEUI!CCommonBrowser::DragEnter+0x20 (FPO: [Non-Fpo])
+0013e294 77e79dc9 001ceaa0 0027030c 0020e580 ole32!CInterfaceFromWindowProp::PrivDragDrop+0x1ae (FPO: [Non-Fpo])
+0013e2d4 77ef321a 775f8db9 0013e2e8 0000000b RPCRT4!Invoke+0x30
+0013e6fc 77ef3bf3 001a4df8 001ba8cc 00169e14 RPCRT4!NdrStubCall2+0x297 (FPO: [Non-Fpo])
+0013e754 77600c31 001a4df8 00169e14 001ba8cc RPCRT4!CStdStubBuffer_Invoke+0xc6 (FPO: [Non-Fpo])
+0013e794 77600bdb 00169e14 00210408 001c7b18 ole32!SyncStubInvoke+0x33 (FPO: [Non-Fpo])
+0013e7dc 77522a22 00169e14 001bf6c8 001a4df8 ole32!StubInvoke+0xa7 (FPO: [Non-Fpo])
+0013e8b4 77522947 001ba8cc 00000000 001a4df8 ole32!CCtxComChnl::ContextInvoke+0xe3 (FPO: [Non-Fpo])
+0013e8d0 77523461 00169e14 00000001 001a4df8 ole32!MTAInvoke+0x1a (FPO: [Non-Fpo])
+0013e8fc 77600e3b 00169e14 00000001 001a4df8 ole32!STAInvoke+0x4a (FPO: [Non-Fpo])
+0013e930 776009bc 00169dc0 001ba8cc 001a4df8 ole32!AppInvoke+0x7e (FPO: [Non-Fpo])
+0013ea04 77600df2 00169dc0 001af100 00000400 ole32!ComInvokeWithLockAndIPID+0x2e0 (FPO: [Non-Fpo])
+0013ea30 7752349b 00169dc0 00000400 0015f250 ole32!ComInvoke+0x60 (FPO: [Non-Fpo])
+0013ea44 775232d1 00169dc0 0013eac4 7752323e ole32!ThreadDispatch+0x23 (FPO: [Non-Fpo])
+0013ea5c 77d48734 000d026c 0015ee28 0000babe ole32!ThreadWndProc+0xfe (FPO: [Non-Fpo])
+0013ea88 77d48816 7752323e 000d026c 00000400 USER32!InternalCallWinProc+0x28
+0013eaf0 77d489cd 00000000 7752323e 000d026c USER32!UserCallWinProcCheckWow+0x150 (FPO: [Non-Fpo])
+0013eb50 77d48a10 0013eb90 00000000 0013eb78 USER32!DispatchMessageWorker+0x306 (FPO: [Non-Fpo])
+0013eb60 75fa6d95 0013eb90 00000000 001631c8 USER32!DispatchMessageW+0xf (FPO: [Non-Fpo])
+0013eb78 75fae692 0013eb90 0013ee98 00000000 BROWSEUI!TimedDispatchMessage+0x33 (FPO: [Non-Fpo])
+0013edd8 75fae805 00162f60 0013ee98 00162f60 BROWSEUI!BrowserThreadProc+0x32e (FPO: [Non-Fpo])
+0013ee6c 75faeacd 00162f60 00162f60 00000000 BROWSEUI!BrowserProtectedThreadProc+0x50 (FPO: [Non-Fpo])
+0013fef0 777e717e 00162f60 00000000 00000000 BROWSEUI!SHOpenFolderWindow+0x22c (FPO: [Non-Fpo])
+0013ff10 00402372 001523ba 00000001 00090000 SHDOCVW!IEWinMain+0x129 (FPO: [Non-Fpo])
+0013ff60 00402444 00400000 00000000 001523ba iexplore!WinMainT+0x2de (FPO: [Non-Fpo])
+0013ffc0 7c816d4f 00090000 000c0438 7ffdb000 iexplore!_ModuleEntry+0x99 (FPO: [Non-Fpo])
+0013fff0 00000000 00402451 00000000 78746341 kernel32!BaseProcessStart+0x23 (FPO: [Non-Fpo])
+0:000> bl
+ 1 e 7d5a7669     0001 (0001)  0:*** mshtml!CPeerFactoryUrl::COleReadyStateSink::QueryInterface "kv L 5;dda esp+4 l 5;ddu esp+4 l 5;dds esp+4 l 5;ddp esp+4 l 5;g"
+ 2 eu             0001 (0001)  (mshtml!COleSite::CClient::QueryInterface) "kv L 5;dda esp+4 l 5;ddu esp+4 l 5;dds esp+4 l 5;ddp esp+4 l 5;g"
+ 3 eu             0001 (0001)  (mshtml!COleSite::CClient::QueryInterface) "kv L 5;dda esp+4 l 5;ddu esp+4 l 5;dds esp+4 l 5;ddp esp+4 l 5;g"
+ 4 eu             0001 (0001)  (mshtml!COleSite::CClient::QueryInterface) "kv L 5;dda esp+4 l 5;ddu esp+4 l 5;dds esp+4 l 5;ddp esp+4 l 5;g"
+ 5 e 7d7048e8     0001 (0001)  0:*** mshtml!COleSiteEventSink::QueryInterface "kv L 5;dda esp+4 l 5;ddu esp+4 l 5;dds esp+4 l 5;ddp esp+4 l 5;g"
+0:000> bc 2-4
+0:000> g
+ModLoad: 76200000 76271000   J:\WINDOWS\System32\mshtmled.dll
+ModLoad: 72d20000 72d29000   J:\WINDOWS\system32\wdmaud.drv
+ModLoad: 72d20000 72d29000   J:\WINDOWS\system32\wdmaud.drv
+ModLoad: 72d10000 72d18000   J:\WINDOWS\system32\msacm32.drv
+ModLoad: 77be0000 77bf5000   J:\WINDOWS\system32\MSACM32.dll
+ModLoad: 77bd0000 77bd7000   J:\WINDOWS\system32\midimap.dll
+(e98.8b4): Unknown exception - code 80010108 (first chance)
+ModLoad: 01f40000 01f50000   J:\WINDOWS\System32\mshtmler.dll
+(e98.8b4): Break instruction exception - code 80000003 (first chance)
+eax=0013e3d8 ebx=01ac5ac0 ecx=00000000 edx=0018e000 esi=00000000 edi=0013e414
+eip=7d6f6752 esp=0013e3c0 ebp=0013e4e0 iopl=0         nv up ei pl zr na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00000246
+mshtml!COleSite::CClient::QueryInterface:
+7d6f6752 cc               int     3
+0:000> kv L 90
+ChildEBP RetAddr  Args to Child              
+0013e4e0 7d5d73eb 01ac5dc4 01ac4880 00000000 mshtml!COleSite::CClient::QueryInterface
+0013e504 7d52517d 01ac58b0 00000000 7727366c mshtml!__sbh_alloc_block+0x3b (FPO: [Non-Fpo])
+0013e520 7d524ea3 00000008 00000000 00000000 mshtml!CDoc::PerformTA+0x1a3 (FPO: [Non-Fpo])
+0013e538 7d524fdf 00000008 0024b0a8 01ac58c0 mshtml!CDoc::HandleKeyNavigate+0x3b9 (FPO: [Non-Fpo])
+0013e53c 00000008 0024b0a8 01ac58c0 00000001 mshtml!CDoc::PerformTA+0x5 (FPO: [Non-Fpo])
+0:000> ~* kv L 90
+
+.  0  Id: e98.8b4 Suspend: 1 Teb: 7ffdf000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+0013e4e0 7d5d73eb 01ac5dc4 01ac4880 00000000 mshtml!COleSite::CClient::QueryInterface
+0013e504 7d52517d 01ac58b0 00000000 7727366c mshtml!__sbh_alloc_block+0x3b (FPO: [Non-Fpo])
+0013e520 7d524ea3 00000008 00000000 00000000 mshtml!CDoc::PerformTA+0x1a3 (FPO: [Non-Fpo])
+0013e538 7d524fdf 00000008 0024b0a8 01ac58c0 mshtml!CDoc::HandleKeyNavigate+0x3b9 (FPO: [Non-Fpo])
+0013e53c 00000008 0024b0a8 01ac58c0 00000001 mshtml!CDoc::PerformTA+0x5 (FPO: [Non-Fpo])
+
+   1  Id: e98.920 Suspend: 1 Teb: 7ffde000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+0169ff98 7c90d85c 7c9279d4 00000001 0169ffac ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+0169ff9c 7c9279d4 00000001 0169ffac 00000000 ntdll!NtDelayExecution+0xc (FPO: [2,0,0])
+0169ffb4 7c80b50b 00000000 00000000 00000000 ntdll!RtlpTimerThread+0x47 (FPO: [Non-Fpo])
+0169ffec 00000000 7c92798d 00000000 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+   2  Id: e98.b10 Suspend: 1 Teb: 7ffdd000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+0179ff1c 7c90d85c 7c8023ed 00000000 0179ff50 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+0179ff20 7c8023ed 00000000 0179ff50 7c802550 ntdll!NtDelayExecution+0xc (FPO: [2,0,0])
+0179ff78 7c802451 0000ea60 00000000 0179ffb4 kernel32!SleepEx+0x61 (FPO: [Non-Fpo])
+0179ff88 774fd6ae 0000ea60 001cd998 774fd83b kernel32!Sleep+0xf (FPO: [Non-Fpo])
+0179ff94 774fd83b 00000000 00000000 001cd998 ole32!CROIDTable::WorkerThreadLoop+0x14 (FPO: [1,0,0])
+0179ffa4 774e0000 774fd8a3 00000000 0179ffec ole32!CRpcThread::WorkerLoop+0x1e (FPO: [0,0,0])
+0179ffb4 7c80b50b 001cd998 00000000 00000000 ole32!_imp__RegQueryValueExA <PERF> (ole32+0x0)
+0179ffec 00000000 774fd888 001cd998 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+   3  Id: e98.878 Suspend: 1 Teb: 7ffdc000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+021cfecc 7c90e9ab 7c8094f2 00000002 021cfef8 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+021cfed0 7c8094f2 00000002 021cfef8 00000001 ntdll!ZwWaitForMultipleObjects+0xc (FPO: [5,0,0])
+021cff6c 7c809c86 00000002 021cffa4 00000000 kernel32!WaitForMultipleObjectsEx+0x12c (FPO: [Non-Fpo])
+021cff88 72d2312a 00000002 021cffa4 00000000 kernel32!WaitForMultipleObjects+0x18 (FPO: [Non-Fpo])
+021cffb4 7c80b50b 00000000 001cd9b8 7c910f46 wdmaud!MixerCallbackThread+0x42 (FPO: [Non-Fpo])
+021cffec 00000000 72d230e8 00000000 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+   4  Id: e98.6d0 Suspend: 1 Teb: 7ffda000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+020cfe18 7c90e399 77e76703 000002a0 020cff70 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+020cfe1c 77e76703 000002a0 020cff70 00000000 ntdll!NtReplyWaitReceivePortEx+0xc (FPO: [5,0,0])
+020cff80 77e76c22 020cffa8 77e76a3b 00193fc0 RPCRT4!LRPC_ADDRESS::ReceiveLotsaCalls+0xf4 (FPO: [Non-Fpo])
+020cff88 77e76a3b 00193fc0 00000000 0013d7dc RPCRT4!RecvLotsaCallsWrapper+0xd (FPO: [Non-Fpo])
+020cffa8 77e76c0a 0015dcf0 020cffec 7c80b50b RPCRT4!BaseCachedThreadRoutine+0x79 (FPO: [Non-Fpo])
+020cffb4 7c80b50b 0018d500 00000000 0013d7dc RPCRT4!ThreadStartRoutine+0x1a (FPO: [Non-Fpo])
+020cffec 00000000 77e76bf0 0018d500 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+   5  Id: e98.e8c Suspend: 1 Teb: 7ffd9000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+0284ff50 77d491be 77d51082 0284ff98 00000000 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+0284ff78 76b44e3d 0284ff98 00000000 00000000 USER32!NtUserGetMessage+0xc
+0284ffb4 7c80b50b 00000548 00000200 0000002b WINMM!mciwindow+0x80 (FPO: [Non-Fpo])
+0284ffec 00000000 76b44dd6 00000548 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+   6  Id: e98.fa4 Suspend: 1 Teb: 7ffd8000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+0230facc 7c90e9c0 71a53ca5 000002e8 00000001 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+0230fad0 71a53ca5 000002e8 00000001 0230faf8 ntdll!ZwWaitForSingleObject+0xc (FPO: [3,0,0])
+0230fb0c 71a55fa7 000002e8 00000354 00000001 mswsock!SockWaitForSingleObject+0x3a (FPO: [Non-Fpo])
+0230fc00 71ab2e67 00000001 0230fe80 0230fc78 mswsock!WSPSelect+0x25f (FPO: [Non-Fpo])
+0230fc50 771d715f 00000001 0230fe80 0230fc78 WS2_32!select+0xb8 (FPO: [Non-Fpo])
+0230ffac 771d9293 0230ffec 7c80b50b 00169190 WININET!ICAsyncThread::SelectThread+0x22a (FPO: [Non-Fpo])
+0230ffb4 7c80b50b 00169190 71ab1404 0000005d WININET!ICAsyncThread::SelectThreadWrapper+0xd (FPO: [Non-Fpo])
+0230ffec 00000000 771d9286 00169190 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+   7  Id: e98.86c Suspend: 1 Teb: 7ffd7000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+0240fe18 7c90e399 77e76703 000002a0 0240ff70 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+0240fe1c 77e76703 000002a0 0240ff70 00000000 ntdll!NtReplyWaitReceivePortEx+0xc (FPO: [5,0,0])
+0240ff80 77e76c22 0240ffa8 77e76a3b 00193fc0 RPCRT4!LRPC_ADDRESS::ReceiveLotsaCalls+0xf4 (FPO: [Non-Fpo])
+0240ff88 77e76a3b 00193fc0 012a0338 00000000 RPCRT4!RecvLotsaCallsWrapper+0xd (FPO: [Non-Fpo])
+0240ffa8 77e76c0a 0015dcf0 0240ffec 7c80b50b RPCRT4!BaseCachedThreadRoutine+0x79 (FPO: [Non-Fpo])
+0240ffb4 7c80b50b 001c6170 012a0338 00000000 RPCRT4!ThreadStartRoutine+0x1a (FPO: [Non-Fpo])
+0240ffec 00000000 77e76bf0 001c6170 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+   8  Id: e98.cbc Suspend: 1 Teb: 7ffd5000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+02a4ff78 7c90e31b 71a5d609 000004ac 02a4ffbc ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+02a4ff7c 71a5d609 000004ac 02a4ffbc 02a4ffb0 ntdll!ZwRemoveIoCompletion+0xc (FPO: [5,0,0])
+02a4ffb4 7c80b50b 71a5d8ec 02d8f910 7c90ee18 mswsock!SockAsyncThread+0x5a (FPO: [Non-Fpo])
+02a4ffec 00000000 71a5d5af 001c0500 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+   9  Id: e98.ec4 Suspend: 1 Teb: 7ffd6000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+0294ff10 7c90e9c0 7c8025db 00000508 00000000 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+0294ff14 7c8025db 00000508 00000000 0294ff48 ntdll!ZwWaitForSingleObject+0xc (FPO: [3,0,0])
+0294ff78 7c802542 00000508 000927c0 00000000 kernel32!WaitForSingleObjectEx+0xa8 (FPO: [Non-Fpo])
+0294ff8c 7d523726 00000508 000927c0 00000005 kernel32!WaitForSingleObject+0x12 (FPO: [Non-Fpo])
+0294ffb4 7c80b50b 01b22860 00000005 001ad008 mshtml!OnSettingsChangeAllDocs+0x7 (FPO: [0,0,0])
+0294ffec 00000000 7d586c3f 01b22860 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+  10  Id: e98.d00 Suspend: 1 Teb: 7ffd4000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+02d8fc38 77d48b8c 77d4cbd4 0010044a 00000465 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+02d8fc5c 7727c898 0010044a 00000465 00000000 USER32!NtUserPostMessage+0xc
+02d8fc84 7727cba5 00209020 02d8fca0 0019dd88 urlmon!CTransaction::Switch+0xd4 (FPO: [Non-Fpo])
+02d8fcb0 7727cb03 00000005 00000000 00000000 urlmon!CINet::TransitState+0x95 (FPO: [Non-Fpo])
+02d8fd54 7727bfc5 00000000 00000001 00cc000c urlmon!CINet::OnINetSendRequest+0x104 (FPO: [Non-Fpo])
+02d8fd6c 771d6f5f 00cc000c 0019dd88 00000064 urlmon!CINet::CINetCallback+0x1f5 (FPO: [Non-Fpo])
+02d8feb0 771d73d4 00000064 02d8fed0 00000008 WININET!InternetIndicateStatus+0xf5 (FPO: [Non-Fpo])
+02d8fee0 77f69498 00000000 0024b0a8 77f6947b WININET!CFsm::RunWorkItem+0xdf (FPO: [Non-Fpo])
+02d8fef8 7c927545 0024b0a8 7c97c3a0 0021a168 SHLWAPI!ExecuteWorkItem+0x1d (FPO: [Non-Fpo])
+02d8ff40 7c927583 77f6947b 0024b0a8 00000000 ntdll!RtlpWorkerCallout+0x70 (FPO: [Non-Fpo])
+02d8ff60 7c927645 00000000 0024b0a8 0021a168 ntdll!RtlpExecuteWorkerRequest+0x1a (FPO: [Non-Fpo])
+02d8ff74 7c92761c 7c927569 00000000 0024b0a8 ntdll!RtlpApcCallout+0x11 (FPO: [Non-Fpo])
+02d8ffb4 7c80b50b 00000000 00000000 001e6b50 ntdll!RtlpWorkerThread+0x87 (FPO: [Non-Fpo])
+02d8ffec 00000000 7c910760 00000000 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+  11  Id: e98.a04 Suspend: 1 Teb: 7ffaf000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+034dff6c 7c90e31b 7c91079d 00000230 034dffac ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+034dff70 7c91079d 00000230 034dffac 034dffb0 ntdll!ZwRemoveIoCompletion+0xc (FPO: [5,0,0])
+034dffb4 7c80b50b 00000000 001ce8f0 7c90ee18 ntdll!RtlpWorkerThread+0x3d (FPO: [Non-Fpo])
+034dffec 00000000 7c910760 00000000 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+  12  Id: e98.850 Suspend: 1 Teb: 7ffae000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+02fdfe18 7c90e399 77e76703 000002a0 02fdff70 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+02fdfe1c 77e76703 000002a0 02fdff70 00000000 ntdll!NtReplyWaitReceivePortEx+0xc (FPO: [5,0,0])
+02fdff80 77e76c22 02fdffa8 77e76a3b 00193fc0 RPCRT4!LRPC_ADDRESS::ReceiveLotsaCalls+0xf4 (FPO: [Non-Fpo])
+02fdff88 77e76a3b 00193fc0 00150000 7c910732 RPCRT4!RecvLotsaCallsWrapper+0xd (FPO: [Non-Fpo])
+02fdffa8 77e76c0a 0015dcf0 02fdffec 7c80b50b RPCRT4!BaseCachedThreadRoutine+0x79 (FPO: [Non-Fpo])
+02fdffb4 7c80b50b 00205f60 00150000 7c910732 RPCRT4!ThreadStartRoutine+0x1a (FPO: [Non-Fpo])
+02fdffec 00000000 77e76bf0 00205f60 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])
+
+  13  Id: e98.a50 Suspend: 1 Teb: 7ffad000 Unfrozen
+ChildEBP RetAddr  Args to Child              
+035dff1c 7c90e9c0 7c8025db 000005c0 00000000 ntdll!KiFastSystemCallRet (FPO: [0,0,0])
+035dff20 7c8025db 000005c0 00000000 00000000 ntdll!ZwWaitForSingleObject+0xc (FPO: [3,0,0])
+035dff84 7c802542 000005c0 ffffffff 00000000 kernel32!WaitForSingleObjectEx+0xa8 (FPO: [Non-Fpo])
+035dff98 72d245e9 000005c0 ffffffff 7c910738 kernel32!WaitForSingleObject+0x12 (FPO: [Non-Fpo])
+035dffb4 7c80b50b 000005c0 7c910738 ffffffff wdmaud!waveThread+0x6e (FPO: [Non-Fpo])
+035dffec 00000000 72d2457b 001d8650 00000000 kernel32!BaseThreadStart+0x37 (FPO: [Non-Fpo])

@@ -1,0 +1,116 @@
+
+
+
+ChildEBP RetAddr  Args to Child              
+0013a4ac 7d712f5b 7d4c900c 00d951c0 012fbef4 mshtml!COleSite::CreateObjectNow (FPO: [Non-Fpo])
+0013a4d0 7d7137ca 012fbeb0 7d4c900c 00d951c0 mshtml!CCodeLoad::OnObjectAvailable+0x84 (FPO: [Non-Fpo])
+0013a540 7d713afa 7d4a1af4 0013a630 012fb610 mshtml!CCodeLoad::BindToObject+0x41e (FPO: [Non-Fpo])
+0013a560 7d70e889 012fb610 0013a630 7d715d34 mshtml!CCodeLoad::Init+0x27b (FPO: [Non-Fpo])
+0013a5e0 7d715cfe 0013a630 012fa100 012fb760 mshtml!COleSite::CreateObject+0x234 (FPO: [Non-Fpo])
+0013e780 7d6fda53 7d54000d 012f9460 159b29ab mshtml!CObjectElement::CreateObject+0x757 (FPO: [Non-Fpo])
+0013e784 7d54000d 012f9460 159b29ab 00000000 mshtml!CHtmObjectParseCtx::Execute+0x8 (FPO: [0,0,0])
+0013e7d0 7d50c997 012fa100 012f9460 7d5342f5 mshtml!CHtmParse::Execute+0x41 (FPO: [EBP 0x00000000] [1,15,0])
+0013e7dc 7d5342f5 7d534313 159b29ab 012f9460 mshtml!CHtmPost::Broadcast+0xd (FPO: [1,0,0])
+0013e898 7d5244c1 159b29ab 012f9460 012a02d0 mshtml!CHtmPost::Exec+0x32f (FPO: [EBP 0x0013e8f4] [1,41,0])
+0013e8b0 7d524466 159b29ab 012a02d0 012f9460 mshtml!CHtmPost::Run+0x12 (FPO: [EBP 0x0013e8f4] [1,0,0])
+0013e8c0 7d5248a3 012a02d0 159b29ab 012f9460 mshtml!PostManExecute+0x51 (FPO: [3,0,0])
+0013e8d8 7d524826 012f9460 00000001 7d52387e mshtml!PostManResume+0x71 (FPO: [2,0,0])
+0013e8e4 7d52387e 012f9830 012f9460 0013e928 mshtml!CHtmPost::OnDwnChanCallback+0xc (FPO: [2,0,0])
+0013e8f4 7d50c582 012f9830 00000000 00000000 mshtml!CDwnChan::OnMethodCall+0x19 (FPO: [Non-Fpo])
+0013e928 7d508508 0013eac4 7d508423 00000000 mshtml!GlobalWndOnMethodCall+0x66 (FPO: [Non-Fpo])
+0013ea5c 77d48734 000502dc 00008002 00000000 mshtml!GlobalWndProc+0x1e2 (FPO: [Non-Fpo])
+0013ea88 77d48816 7d508423 000502dc 00008002 USER32!InternalCallWinProc+0x28
+0013eaf0 77d489cd 00000000 7d508423 000502dc USER32!UserCallWinProcCheckWow+0x150 (FPO: [Non-Fpo])
+0013eb50 77d48a10 0013eb90 00000000 0013eb78 USER32!DispatchMessageWorker+0x306 (FPO: [Non-Fpo])
+0013eb60 75fa6d95 0013eb90 00000000 001721b0 USER32!DispatchMessageW+0xf (FPO: [Non-Fpo])
+0013eb78 75fae692 0013eb90 0013ee98 00000000 BROWSEUI!TimedDispatchMessage+0x33 (FPO: [Non-Fpo])
+0013edd8 75fae805 00171a88 0013ee98 00171a88 BROWSEUI!BrowserThreadProc+0x32e (FPO: [Non-Fpo])
+0013ee6c 75faeacd 00171a88 00171a88 00000000 BROWSEUI!BrowserProtectedThreadProc+0x50 (FPO: [Non-Fpo])
+0013fef0 777e717e 00171a88 00000000 00000000 BROWSEUI!SHOpenFolderWindow+0x22c (FPO: [Non-Fpo])
+0013ff10 00402372 001623ba 00000001 0126cfe8 SHDOCVW!IEWinMain+0x129 (FPO: [Non-Fpo])
+0013ff60 00402444 00400000 00000000 001623ba IEXPLORE!WinMainT+0x2de (FPO: [Non-Fpo])
+0013ffc0 7c816d4f 0126cfe8 00000018 7ffd6000 IEXPLORE!_ModuleEntry+0x99 (FPO: [Non-Fpo])
+0013fff0 00000000 00402451 00000000 78746341 kernel32!BaseProcessStart+0x23 (FPO: [Non-Fpo])
+eax=7d4be358 ebx=00d951c0 ecx=012fb610 edx=00160608 esi=012fbef4 edi=80004005
+eip=7d7121ac esp=0013a4b0 ebp=0013a4d0 iopl=0         nv up ei pl nz na pe nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00000202
+mshtml!COleSite::CreateObjectNow:
+7d7121ac 8bff             mov     edi,edi
+0:000> bl
+ 2 e 7d7121ac     0001 (0001)  0:*** mshtml!COleSite::CreateObjectNow "kv L 90"
+ 3 e 7d70e8b6     0001 (0001)  0:*** mshtml!COleSite::InstantiateObjectFromCF "kv L 90"
+0:000> g
+ChildEBP RetAddr  Args to Child              
+00138428 7d712250 00d951c0 012fbef4 80004005 mshtml!COleSite::InstantiateObjectFromCF (FPO: [Non-Fpo])
+0013a4ac 7d712f5b 7d4c900c 00d951c0 012fbef4 mshtml!COleSite::CreateObjectNow+0xa5 (FPO: [Non-Fpo])
+0013a4d0 7d7137ca 012fbeb0 7d4c900c 00d951c0 mshtml!CCodeLoad::OnObjectAvailable+0x84 (FPO: [Non-Fpo])
+0013a540 7d713afa 7d4a1af4 0013a630 012fb610 mshtml!CCodeLoad::BindToObject+0x41e (FPO: [Non-Fpo])
+0013a560 7d70e889 012fb610 0013a630 7d715d34 mshtml!CCodeLoad::Init+0x27b (FPO: [Non-Fpo])
+0013a5e0 7d715cfe 0013a630 012fa100 012fb760 mshtml!COleSite::CreateObject+0x234 (FPO: [Non-Fpo])
+0013e780 7d6fda53 7d54000d 012f9460 159b29ab mshtml!CObjectElement::CreateObject+0x757 (FPO: [Non-Fpo])
+0013e784 7d54000d 012f9460 159b29ab 00000000 mshtml!CHtmObjectParseCtx::Execute+0x8 (FPO: [0,0,0])
+0013e7d0 7d50c997 012fa100 012f9460 7d5342f5 mshtml!CHtmParse::Execute+0x41 (FPO: [EBP 0x00000000] [1,15,0])
+0013e7dc 7d5342f5 7d534313 159b29ab 012f9460 mshtml!CHtmPost::Broadcast+0xd (FPO: [1,0,0])
+0013e898 7d5244c1 159b29ab 012f9460 012a02d0 mshtml!CHtmPost::Exec+0x32f (FPO: [EBP 0x0013e8f4] [1,41,0])
+0013e8b0 7d524466 159b29ab 012a02d0 012f9460 mshtml!CHtmPost::Run+0x12 (FPO: [EBP 0x0013e8f4] [1,0,0])
+0013e8c0 7d5248a3 012a02d0 159b29ab 012f9460 mshtml!PostManExecute+0x51 (FPO: [3,0,0])
+0013e8d8 7d524826 012f9460 00000001 7d52387e mshtml!PostManResume+0x71 (FPO: [2,0,0])
+0013e8e4 7d52387e 012f9830 012f9460 0013e928 mshtml!CHtmPost::OnDwnChanCallback+0xc (FPO: [2,0,0])
+0013e8f4 7d50c582 012f9830 00000000 00000000 mshtml!CDwnChan::OnMethodCall+0x19 (FPO: [Non-Fpo])
+0013e928 7d508508 0013eac4 7d508423 00000000 mshtml!GlobalWndOnMethodCall+0x66 (FPO: [Non-Fpo])
+0013ea5c 77d48734 000502dc 00008002 00000000 mshtml!GlobalWndProc+0x1e2 (FPO: [Non-Fpo])
+0013ea88 77d48816 7d508423 000502dc 00008002 USER32!InternalCallWinProc+0x28
+0013eaf0 77d489cd 00000000 7d508423 000502dc USER32!UserCallWinProcCheckWow+0x150 (FPO: [Non-Fpo])
+0013eb50 77d48a10 0013eb90 00000000 0013eb78 USER32!DispatchMessageWorker+0x306 (FPO: [Non-Fpo])
+0013eb60 75fa6d95 0013eb90 00000000 001721b0 USER32!DispatchMessageW+0xf (FPO: [Non-Fpo])
+0013eb78 75fae692 0013eb90 0013ee98 00000000 BROWSEUI!TimedDispatchMessage+0x33 (FPO: [Non-Fpo])
+0013edd8 75fae805 00171a88 0013ee98 00171a88 BROWSEUI!BrowserThreadProc+0x32e (FPO: [Non-Fpo])
+0013ee6c 75faeacd 00171a88 00171a88 00000000 BROWSEUI!BrowserProtectedThreadProc+0x50 (FPO: [Non-Fpo])
+0013fef0 777e717e 00171a88 00000000 00000000 BROWSEUI!SHOpenFolderWindow+0x22c (FPO: [Non-Fpo])
+0013ff10 00402372 001623ba 00000001 0126cfe8 SHDOCVW!IEWinMain+0x129 (FPO: [Non-Fpo])
+0013ff60 00402444 00400000 00000000 001623ba IEXPLORE!WinMainT+0x2de (FPO: [Non-Fpo])
+0013ffc0 7c816d4f 0126cfe8 00000018 7ffd6000 IEXPLORE!_ModuleEntry+0x99 (FPO: [Non-Fpo])
+0013fff0 00000000 00402451 00000000 78746341 kernel32!BaseProcessStart+0x23 (FPO: [Non-Fpo])
+eax=00000000 ebx=012fb610 ecx=012fb610 edx=7d4b7e10 esi=7d4c901c edi=7d4c901c
+eip=7d70e8b6 esp=0013842c ebp=0013a4ac iopl=0         nv up ei pl zr na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00000246
+mshtml!COleSite::InstantiateObjectFromCF:
+7d70e8b6 8bff             mov     edi,edi
+
+ChildEBP RetAddr  Args to Child              
+00138330 75f4b906 00160000 001383e0 012fb610 OLEAUT32!SysFreeString+0x45 (FPO: [Non-Fpo])
+0013836c 7d5152b4 00da3508 fffffdf3 7d4b2dec devenum!CVidCapClassManager::MatchString+0x8e (FPO: [Non-Fpo])
+001383a8 7d70ef80 00da3508 fffffdf3 00000409 mshtml!GetDispProp+0x45 (FPO: [Non-Fpo])
+001383e0 7d710ce6 00138408 012fbee4 012fbea0 mshtml!COleSite::GetReadyState+0x41 (FPO: [Non-Fpo])
+0013840c 7d712de5 00000000 00000000 012fbea0 mshtml!COleSite::OnControlReadyStateChanged+0x1c (FPO: [Non-Fpo])
+00138428 7d70d1b7 012fbd10 7d7126a5 80004005 mshtml!CCodeLoad::Terminate+0xc8 (FPO: [Non-Fpo])
+00138430 7d7126a5 80004005 012fbef4 00d951c0 mshtml!COleSite::ReleaseCodeLoad+0x15 (FPO: [0,0,0])
+0013a4ac 7d712f5b 7d4c900c 00d951c0 012fbef4 mshtml!COleSite::CreateObjectNow+0x4fa (FPO: [Non-Fpo])
+0013a4d0 7d7137ca 012fbeb0 7d4c900c 00d951c0 mshtml!CCodeLoad::OnObjectAvailable+0x84 (FPO: [Non-Fpo])
+0013a540 7d713afa 7d4a1af4 0013a630 012fb610 mshtml!CCodeLoad::BindToObject+0x41e (FPO: [Non-Fpo])
+0013a560 7d70e889 012fb610 0013a630 7d715d34 mshtml!CCodeLoad::Init+0x27b (FPO: [Non-Fpo])
+0013a5e0 7d715cfe 0013a630 012fa100 012fb760 mshtml!COleSite::CreateObject+0x234 (FPO: [Non-Fpo])
+0013e780 7d6fda53 7d54000d 012f9460 159b29ab mshtml!CObjectElement::CreateObject+0x757 (FPO: [Non-Fpo])
+0013e784 7d54000d 012f9460 159b29ab 00000000 mshtml!CHtmObjectParseCtx::Execute+0x8 (FPO: [0,0,0])
+0013e7d0 7d50c997 012fa100 012f9460 7d5342f5 mshtml!CHtmParse::Execute+0x41 (FPO: [EBP 0x00000000] [1,15,0])
+0013e7dc 7d5342f5 7d534313 159b29ab 012f9460 mshtml!CHtmPost::Broadcast+0xd (FPO: [1,0,0])
+0013e898 7d5244c1 159b29ab 012f9460 012a02d0 mshtml!CHtmPost::Exec+0x32f (FPO: [EBP 0x0013e8f4] [1,41,0])
+0013e8b0 7d524466 159b29ab 012a02d0 012f9460 mshtml!CHtmPost::Run+0x12 (FPO: [EBP 0x0013e8f4] [1,0,0])
+0013e8c0 7d5248a3 012a02d0 159b29ab 012f9460 mshtml!PostManExecute+0x51 (FPO: [3,0,0])
+0013e8d8 7d524826 012f9460 00000001 7d52387e mshtml!PostManResume+0x71 (FPO: [2,0,0])
+0013e8e4 7d52387e 012f9830 012f9460 0013e928 mshtml!CHtmPost::OnDwnChanCallback+0xc (FPO: [2,0,0])
+0013e8f4 7d50c582 012f9830 00000000 00000000 mshtml!CDwnChan::OnMethodCall+0x19 (FPO: [Non-Fpo])
+0013e928 7d508508 0013eac4 7d508423 00000000 mshtml!GlobalWndOnMethodCall+0x66 (FPO: [Non-Fpo])
+0013ea5c 77d48734 000502dc 00008002 00000000 mshtml!GlobalWndProc+0x1e2 (FPO: [Non-Fpo])
+0013ea88 77d48816 7d508423 000502dc 00008002 USER32!InternalCallWinProc+0x28
+0013eaf0 77d489cd 00000000 7d508423 000502dc USER32!UserCallWinProcCheckWow+0x150 (FPO: [Non-Fpo])
+0013eb50 77d48a10 0013eb90 00000000 0013eb78 USER32!DispatchMessageWorker+0x306 (FPO: [Non-Fpo])
+0013eb60 75fa6d95 0013eb90 00000000 001721b0 USER32!DispatchMessageW+0xf (FPO: [Non-Fpo])
+0013eb78 75fae692 0013eb90 0013ee98 00000000 BROWSEUI!TimedDispatchMessage+0x33 (FPO: [Non-Fpo])
+0013edd8 75fae805 00171a88 0013ee98 00171a88 BROWSEUI!BrowserThreadProc+0x32e (FPO: [Non-Fpo])
+0013ee6c 75faeacd 00171a88 00171a88 00000000 BROWSEUI!BrowserProtectedThreadProc+0x50 (FPO: [Non-Fpo])
+0013fef0 777e717e 00171a88 00000000 00000000 BROWSEUI!SHOpenFolderWindow+0x22c (FPO: [Non-Fpo])
+0013ff10 00402372 001623ba 00000001 0126cfe8 SHDOCVW!IEWinMain+0x129 (FPO: [Non-Fpo])
+0013ff60 00402444 00400000 00000000 001623ba IEXPLORE!WinMainT+0x2de (FPO: [Non-Fpo])
+0013ffc0 7c816d4f 0126cfe8 00000018 7ffd6000 IEXPLORE!_ModuleEntry+0x99 (FPO: [Non-Fpo])
+0013fff0 00000000 00402451 00000000 78746341 kernel32!BaseProcessStart+0x23 (FPO: [Non-Fpo])
